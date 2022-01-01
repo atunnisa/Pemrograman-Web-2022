@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Rupiah</title>
+    <script>
+        // tahapan 1 : menyeleksi semua elemen yang dibutuhkan
+        
+       const input = document.querySelector('.Input');
+       const kursSelect = document.querySelector('.kurs');
+       const hitungButon= document.querySelector('.hitung');
+       const hasil = document.querySelector('.hasil')
+
+       hitungButon.addEventListener("click", function(){
+           console.log("Button diklik");
+       })
+    </script>
+</head>
+<body>
+    <input type="number" class="Input">
+
+    <select class="kurs">
+        <option value="">DollarUS</option>
+        <option value="">Dollar Singapore</option>
+        <option value="">Ringgit Malaysia</option>
+        <option value="">Yen Jepang</option>
+        <option value="">Euro</option>
+        <option value="">Riyal Arab Saudi</option>
+    </select>
+    <button class="hitung">Hitung</button>
+    <p class="hasil">Hasil: </p>
+</body>
+</html>

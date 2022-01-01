@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+nav,header,article,aside,footer{
+    padding: 1em;
+}
+header,footer{
+    background: khaki;
+    height: 20vh;
+    width: 178vh;
+}
+body{
+    display: flex;
+    min-height: 47vw;
+    margin: 0;
+}
+nav{
+    background: pink;
+    flex: 0 0 30vh;
+    flex-direction: row;
+}
+.isi{
+    display: flex;
+    flex: 1;
+}
+
+.isi>aside{
+    flex: 0 0 30vh;
+    background: #03dac5;
+    order: 2;
+}
+.isi>article{
+    flex: 1;
+    order: 1;
+    flex: 0 0 148vh;
+}
+
+
+

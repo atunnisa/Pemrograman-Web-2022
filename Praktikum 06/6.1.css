@@ -1,0 +1,17 @@
+* {
+    margin: auto;
+}
+#container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;      
+}
+img {
+    width: 200px;
+    padding-top: 2%;
+}
+.img-atas {
+    width: 370px;
+    padding-top: 2%;
+    
+}
